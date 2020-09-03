@@ -9,7 +9,7 @@
             }
         },
         "location": {
-            "defaultValue": "eastus2",
+            "defaultValue": "australiaeast",
             "type": "string",
             "allowedValues": [
                 "centralus",
@@ -21,7 +21,8 @@
                 "uksouth",
                 "westeurope",
                 "japaneast",
-                "southeastasia"
+                "southeastasia",
+                "australiaeast"
             ],
             "metadata": {
                 "description": "The hub's regional affinity. All resources tied to this hub will also be homed in this region.  The network team maintains this approved regional list which is a subset of zones with Availability Zone support."
@@ -302,8 +303,8 @@
                                         }
                                     ],
                                     "targetFqdns": [
-                                        "*.hcp.eastus2.azmk8s.io",
-                                        "*.tun.eastus2.azmk8s.io"
+                                        "*.hcp.australiaeast.azmk8s.io",
+                                        "*.tun.australiaeast.azmk8s.io"
                                     ]
                                 },
                                 {
@@ -441,7 +442,7 @@
                                     "targetFqdns": [
                                         "gov-prod-policy-data.trafficmanager.net",
                                         "raw.githubusercontent.com",
-                                        "*.gk.eastus2.azmk8s.io",
+                                        "*.gk.australiaeast.azmk8s.io",
                                         "*.microsoftonline.com",
                                         "dc.services.visualstudio.com"
                                     ]
